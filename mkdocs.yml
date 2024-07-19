@@ -1,0 +1,132 @@
+site_name: GradleUp
+site_description: >-
+  GradleUp is an umbrella GitHub organization focusing
+  on simplifying Java and Android development with Gradle.
+  On our menu: Gradle plugins, developer tools and best practices.
+copyright: >-
+  Copyright &copy; 2024 - Oleg Nenashev and all GradleUp contributors.
+  The content and the license are licensed under CC BY 4.0.
+  Gradle and the Gradlephant logo (the "Gradle Marks") are registered trademarks of Gradle, Inc. and/or its subsidiaries.
+  In the GradleUp organization, "Gradle" typically means "Gradle Build Tool" and does not reference Gradle Inc. and/or its subsidiaries. 
+repo_url: https://github.com/GradleUp/gradleup.github.io
+repo_name: GitHub Repo
+edit_uri: edit/main/
+site_url: https://www.gradleup.com
+
+# Build
+site_dir: _site
+docs_dir: .
+
+nav:
+  - ">ROOT": README.md
+  - Projects:
+    - All Projects: projects/README.md
+    - Tools for Android:
+      - Auto Manifest: auto-manifest/README.md
+    - Gradle DevX:
+      - Gratatouille: gratatouille/README.md
+      - New Maven Central Publishing: nmcp/README.md
+  - Resources:
+    - Contributing to the Website: ./CONTRIBUTING.md
+
+
+plugins:
+  - search
+  - autorefs
+  - macros
+  - mkdocs-pdf
+  - social
+  - same-dir
+  - group:
+      enabled: !ENV [FULL_BUILD, true]
+      plugins:
+      - multirepo:
+          # TODO: Change to True once works
+          cleanup: false
+          keep_docs_dir: true
+          nav_repos:
+          - name: gratatouille
+            import_url: 'https://github.com/GradleUp/gratatouille?branch=main&edit_uri=/blob/main/'
+            imports: [ README.md ]
+          - name: auto-manifest
+            import_url: 'https://github.com/GradleUp/auto-manifest?branch=master&edit_uri=/blob/master/'
+            imports: [ README.md ]
+          - name: nmcp
+            import_url: 'https://github.com/GradleUp/nmcp?branch=main&edit_uri=/blob/main/'
+            imports: [ README.md ]
+  - redirects:
+      redirect_maps:
+
+# Markdown
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - toc:
+      permalink: '#'
+  - attr_list
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - mdx_truly_sane_lists
+
+# Theme
+theme:
+  custom_dir: overrides
+  name: material
+  highlightjs: true
+  features:
+    - announce.dismiss
+    - content.action.edit
+    - content.action.view
+    - content.code.annotate
+    - content.code.copy
+    - content.code.select
+    - content.tabs.link
+    - content.tooltips
+    # - header.autohide
+    # - navigation.expand
+    - navigation.footer
+    # NOT compatible qith toc.integrate
+    # - navigation.indexes
+    - navigation.path
+    # - navigation.instant
+    # - navigation.instant.prefetch
+    # - navigation.instant.progress
+    # - navigation.prune
+    - navigation.sections
+    - navigation.expand
+    - navigation.tabs
+    # - navigation.tabs.sticky
+    - navigation.top
+    - navigation.tracking
+    - search.highlight
+    - search.share
+    - search.suggest
+    - toc.follow
+    - toc.integrate
+  font:
+    text: DM Sans
+    code: Roboto Mono
+  favicon: assets/images/logo-square.png
+  logo: assets/images/logo.png
+  icon:
+    repo: fontawesome/brands/github
+
+extra_css:
+  - assets/css/theme.css
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/GradleUp
+      name: GitHub
+#  analytics:
+#    provider: google
+#    property: TODO
