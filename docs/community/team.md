@@ -1,8 +1,7 @@
 # GradleUp Team
 
-The project is led by a small team,
-with a consensus-based decision making and governance.
-There is no special governance charter at the moment.
+The project is led by a small team of passionate Gradle users and contributors.
+The team is decentralized and decisions are made based on consensus and common sense.
 
 ## Members
 
