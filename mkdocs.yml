@@ -31,6 +31,7 @@ nav:
       - Maven Sympathy: maven-sympathy/README.md
   - Resources:
     - Community Channels: docs/community/participate.md
+    - GradleUp Team: docs/community/team.md
     - Contributing to the Website: ./CONTRIBUTING.md
 
 
