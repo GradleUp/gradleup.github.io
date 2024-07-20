@@ -33,6 +33,7 @@ nav:
     - Community Channels: docs/community/participate.md
     - GradleUp Team: docs/community/team.md
     - Contributing to the Website: ./CONTRIBUTING.md
+    - Code of Conduct: org/CODE_OF_CONDUCT.md
 
 
 plugins:
@@ -50,6 +51,11 @@ plugins:
           cleanup: false
           keep_docs_dir: true
           nav_repos:
+          - name: org
+            import_url: 'https://github.com/oleg-nenashev/gradleup-.github?branch=main&edit_uri=/blob/main/'
+            imports: [ '*.md' ]
+
+          # Projects
           - name: gratatouille
             import_url: 'https://github.com/GradleUp/gratatouille?branch=main&edit_uri=/blob/main/'
             imports: [ README.md ]
