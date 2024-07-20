@@ -18,7 +18,7 @@ on the [GitHub organization](https://github.com/GradleUp)
 
 - [Gratatouille](../gratatouille/README.md) -
   Gratatouille is an opinionated framework to build Gradle plugins. Write pure Kotlin functions and the Gratatouille KSP processor generates tasks, workers and wiring code for you.
-- [New Maven Central Publishing](../nmcp/README.md) -
+- [NMCP](../nmcp/README.md) (New Maven Central Publishing) -
   A plugin that uses the new Central Portal publisher API to publish to Maven Central.
 - [Librarian](../librarian/README.md) -
   Librarian is a library to help building Kotlin libraries.
