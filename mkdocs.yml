@@ -29,15 +29,16 @@ nav:
       - NMCP (New Maven Central Publishing): nmcp/README.md
       - Librarian: librarian/README.md
       - Maven Sympathy: maven-sympathy/README.md
-  - Resources:
+  - Participate:
     - Community Channels: docs/community/participate.md
     - GradleUp Team: docs/community/team.md
-    - Community Support: org/SUPPORT.md
     - Hosting New Projects: docs/community/hosting.md
     - Contributing to the Website: ./CONTRIBUTING.md
+    - Code of Conduct: org/CODE_OF_CONDUCT.md
+  - Resources:
+    - Community Support: org/SUPPORT.md
     - Security Policy: org/SECURITY.md
     - Code of Conduct: org/CODE_OF_CONDUCT.md
-
 
 plugins:
   - search
