@@ -53,10 +53,17 @@
       margin-inline: auto;
     }
 
+    .mdx-hero__buttons {
+      margin-bottom: 20px;
+    }
+
     .mdx-container {
       max-width: 600px;
       margin-inline: auto;
-      transform: translateY(30%);
+
+      @media screen and (min-height: 60em) {
+        transform: translateY(30%);
+      }
 
       div {
         text-align:center;
