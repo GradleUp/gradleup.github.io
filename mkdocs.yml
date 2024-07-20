@@ -26,13 +26,15 @@ nav:
       - Gr8: gr8/README.md
     - Gradle DevX:
       - Gratatouille: gratatouille/README.md
-      - New Maven Central Publishing: nmcp/README.md
+      - NMCP (New Maven Central Publishing): nmcp/README.md
       - Librarian: librarian/README.md
       - Maven Sympathy: maven-sympathy/README.md
   - Resources:
     - Community Channels: docs/community/participate.md
     - GradleUp Team: docs/community/team.md
+    - Community Support: org/SUPPORT.md
     - Contributing to the Website: ./CONTRIBUTING.md
+    - Security Policy: org/SECURITY.md
     - Code of Conduct: org/CODE_OF_CONDUCT.md
 
 
