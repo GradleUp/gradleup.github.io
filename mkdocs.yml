@@ -30,6 +30,7 @@ nav:
       - Librarian: librarian/README.md
       - Maven Sympathy: maven-sympathy/README.md
   - Resources:
+    - Community Channels: docs/community/participate.md
     - Contributing to the Website: ./CONTRIBUTING.md
 
 
