@@ -4,8 +4,8 @@
 
 ## What is GradleUp?
 
-GradleUp is an umbrella [GitHub organization](https://github.com/gradleup)
-focusing on simplifying Java and Android development with Gradle.
+GradleUp is an umbrella [GitHub organization](https://github.com/gradleup) created by, and for, the community.
+GradleUp focuses on simplifying building Java, Kotlin and Android projects.
 On our menu: Gradle plugins, developer tools and best practices.
 
 ## Contributing

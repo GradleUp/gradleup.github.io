@@ -4,7 +4,7 @@ site_description: >-
   on simplifying Java and Android development with Gradle.
   On our menu: Gradle plugins, developer tools and best practices.
 copyright: >-
-  Copyright &copy; 2024 - Oleg Nenashev and all GradleUp contributors.
+  Copyright &copy; 2024 - GradleUp contributors.
   The content and the license are licensed under CC BY 4.0.
   Gradle and the Gradlephant logo (the "Gradle Marks") are registered trademarks of Gradle, Inc. and/or its subsidiaries.
   In the GradleUp organization, "Gradle" typically means "Gradle Build Tool" and does not reference Gradle Inc. and/or its subsidiaries. 
