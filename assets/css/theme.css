@@ -1,12 +1,14 @@
 :root {
-    --theme-background: #34365F;
+    --theme-background: #2A465B;
     --theme-background-lite: #f8f8f8;
-    --theme-main: #06518E;
-    --theme-main-lite: #3d89c7;
+    --theme-main: #49667D;
+    --theme-main-lite: #5C819A;
 
     --md-primary-fg-color:        var(--theme-background);
     --md-primary-fg-color--light: var(--theme-background-lite);
     --md-primary-fg-color--dark:  var(--theme-background);
+
+    --md-footer-bg-color--dark:   black;
 }
 
 .md-content {

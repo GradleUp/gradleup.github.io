@@ -5,9 +5,20 @@
   <!-- Additional styles for landing page -->
   <style>
 
+    .md-typeset h1 {
+      font-size: xx-large;
+      font-weight: bolder;
+      margin: unset;
+    }
+
     /* Application header should be static for the landing page */
     .md-header {
       position: initial;
+      display: none;
+    }
+
+    .md-tabs {
+      display: none;
     }
 
     /* Remove spacing, as we cannot hide it completely */
@@ -35,7 +46,21 @@
     }
 
     .mdx-hero {
-        margin-inline: auto;
+      margin-inline: auto;
+    }
+
+    .mdx-hero__image {
+      margin-inline: auto;
+    }
+
+    .mdx-container {
+      max-width: 600px;
+      margin-inline: auto;
+      transform: translateY(30%);
+
+      div {
+        text-align:center;
+      }
     }
   </style>
 
@@ -48,6 +73,8 @@
         <div class="mdx-hero__content">
           <h1>GradleUp</h1>
           <p>{{ config.site_description }}</p>
+        </div>
+        <div class="mdx-hero__buttons">
           <a href="{{ 'projects/' | url }}" title="Our Projects" class="md-button md-button--primary">
             Our Projects
           </a>
