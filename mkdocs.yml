@@ -138,7 +138,7 @@ theme:
     - search.suggest
     - toc.follow
     - toc.integrate
-    palette:
+  palette:
     - scheme: default
       media: "(prefers-color-scheme: light)"
       primary: custom
