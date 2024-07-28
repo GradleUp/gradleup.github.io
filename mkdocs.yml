@@ -51,12 +51,11 @@ plugins:
       enabled: !ENV [FULL_BUILD, true]
       plugins:
       - multirepo:
-          # TODO: Change to True once works
           cleanup: false
           keep_docs_dir: true
           nav_repos:
           - name: org
-            import_url: 'https://github.com/gradleup/.github?branch=support-security&edit_uri=/blob/main/'
+            import_url: 'https://github.com/gradleup/.github?branch=main&edit_uri=/blob/main/'
             imports: [ '*.md' ]
 
           # Projects
