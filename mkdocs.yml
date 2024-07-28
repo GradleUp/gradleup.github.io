@@ -20,15 +20,14 @@ docs_dir: .
 nav:
   - Projects:
     - All Projects: projects/README.md
-    - Tools for Android:
-      - Auto Manifest: auto-manifest/README.md
-      - Gradle static analysis plugin: static-analysis-plugin/README.md
-      - Gr8: gr8/README.md
-    - Gradle DevX:
-      - Gratatouille: gratatouille/README.md
-      - NMCP (New Maven Central Publishing): nmcp/README.md
-      - Librarian: librarian/README.md
-      - Maven Sympathy: maven-sympathy/README.md
+    - Auto Manifest: auto-manifest/README.md
+    - Gradle static analysis plugin: static-analysis-plugin/README.md
+    - Gr8: gr8/README.md
+    - Gratatouille: gratatouille/README.md
+    - NMCP (New Maven Central Publishing): nmcp/README.md
+    - Librarian: librarian/README.md
+    - Maven Sympathy: maven-sympathy/README.md
+    - Hosting New Projects: docs/community/hosting.md
   - Participate:
     - Community Channels: docs/community/participate.md
     - GradleUp Team: docs/community/team.md

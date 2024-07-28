@@ -19,8 +19,7 @@ The general criteria for hosting a project are:
 
 - The project has value to the ecosystem and fits into the GradleUp scope.
 - The project must be open source and licensed under one of the
-  [OSI-approved open source licenses](https://opensource.org/),
-  preferably the Apache License v2.
+  [OSI-approved open source licenses](https://opensource.org/).
 - The project follows the best practices for creating Gradle plugins and components.
 - The requesting contributors are willing to continue maintenance of the project
   after the transfer.
