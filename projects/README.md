@@ -21,6 +21,9 @@ on the [GitHub organization](https://github.com/GradleUp)
   Librarian is a library to help building Kotlin libraries.
 - [Maven Sympathy](../maven-sympathy/README.md) -
   A small Gradle plugin that checks that your project dependencies play nice with Maven resolution strategy
+- [Shadow](https://gradleup.com/shadow/) -
+  Gradle plugin to create fat/uber JARs, apply file transforms, and relocate packages for applications and libraries.
+  Gradle version of Maven's Shade plugin.
 
 ## Hosting New Projects
 
