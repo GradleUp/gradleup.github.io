@@ -1,0 +1,108 @@
+{% extends "main.html" %}
+{% block tabs %}
+  {{ super() }}
+
+  <!-- Additional styles for landing page -->
+  <style>
+
+    .md-typeset h1 {
+      font-size: xx-large;
+      font-weight: bolder;
+      margin: unset;
+    }
+
+    /* Application header should be static for the landing page */
+    .md-header {
+      position: initial;
+      display: none;
+    }
+
+    .md-tabs {
+      display: none;
+    }
+
+    /* Remove spacing, as we cannot hide it completely */
+    .md-main__inner {
+      margin: 0;
+    }
+
+    /* Hide main content for now */
+    .md-content {
+      display: none;
+    }
+
+    /* Hide table of contents */
+    @media screen and (min-width: 60em) {
+      .md-sidebar--secondary {
+        display: none;
+      }
+    }
+
+    /* Hide navigation */
+    @media screen and (min-width: 76.25em) {
+      .md-sidebar--primary {
+        display: none;
+      }
+    }
+
+    .mdx-hero {
+      margin-inline: auto;
+    }
+
+    .mdx-hero__image {
+      margin-inline: auto;
+    }
+
+    .mdx-hero__buttons {
+      margin-bottom: 20px;
+    }
+
+    .mdx-container {
+      max-width: 600px;
+      margin-inline: auto;
+
+      @media screen and (min-height: 60em) {
+        transform: translateY(30%);
+      }
+
+      div {
+        text-align:center;
+      }
+    }
+  </style>
+
+  <section class="mdx-container">
+    <div class="md-grid md-typeset">
+      <div class="mdx-hero">
+        <div class="mdx-hero__image">
+          <img src="assets/images/logo-2.png" alt="GradleUp logo" width="360" draggable="false">
+        </div>
+        <div class="mdx-hero__content">
+          <h1>GradleUp</h1>
+          <p>{{ config.site_description }}</p>
+        </div>
+        <div class="mdx-hero__buttons">
+          <a href="{{ 'projects/' | url }}" title="Our Projects" class="md-button md-button--primary">
+            Our Projects
+          </a>
+          <a href="{{ 'docs/community/participate/' | url }}" title="Participate" class="md-button">
+            Contributing
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+{% endblock %}
+{% block content %}{% endblock %}
+{% block footer %}
+<div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      {% include "partials/copyright.html" %}
+
+      <!-- Social links -->
+      {% if config.extra.social %}
+        {% include "partials/social.html" %}
+      {% endif %}
+    </div>
+  </div>
+{% endblock %}
