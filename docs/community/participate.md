@@ -11,8 +11,3 @@ Please raise bugs and discuss feature requests there.
 
     Community Channels will be published soon, stay tuned.
 
-## Team Slack
-
-We have a private community Slack.
-If you are a maintainer or an active contributor,
-reach out to one of the maintainers to get added.

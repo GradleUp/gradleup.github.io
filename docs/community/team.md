@@ -11,6 +11,7 @@ The team is decentralized and decisions are made based on consensus and common s
 - [Martin Bonnin (@martinbonnin)](https://github.com/martinbonnin)
 - [Pablisco (@pablisco)](https://github.com/pablisco)
 - [Said Tahsin Dane (@tasomaniac)](https://github.com/tasomaniac)
+- [Nicola Corti (@cortinico)](https://github.com/cortinico)
 
 ## Contact the Team
 
