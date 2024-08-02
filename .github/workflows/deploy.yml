@@ -56,7 +56,7 @@ jobs:
         with:
             imageName: gradleup/gradleup.github.io-builder
             cacheFrom: gradleup/gradleup.github.io-builder
-            push: never
+            push: always
             runCmd: |
               mkdocs build
             env: |
