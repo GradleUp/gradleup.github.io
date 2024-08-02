@@ -35,6 +35,7 @@ nav:
     - GradleUp Team: docs/community/team.md
     - Hosting New Projects: docs/community/hosting.md
     - Contributing to the Website: ./CONTRIBUTING.md
+    - Governance: docs/community/governance.md
     - Code of Conduct: org/CODE_OF_CONDUCT.md
   - Resources:
     - Community Support: org/SUPPORT.md

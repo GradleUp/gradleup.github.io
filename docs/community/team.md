@@ -2,6 +2,7 @@
 
 The project is led by a small team of passionate Gradle users and contributors.
 The team is decentralized and decisions are made based on consensus and common sense.
+Learn more in the [Governance Document](./governance.md).
 
 ## Members
 
@@ -15,4 +16,5 @@ The team is decentralized and decisions are made based on consensus and common s
 
 ## Contact the Team
 
-For now, use DMs on the Kotlin Foundation or the Gradle Community Slack.
+For now, we use DMs on the Kotlin Foundation or the Gradle Community Slack.
+Public communication channels are to be established soon.

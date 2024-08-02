@@ -24,4 +24,4 @@ The general criteria for hosting a project are:
 - The requesting contributors are willing to continue maintenance of the project
   after the transfer.
 - The requesting contributors are willing to ensure sustainability of their project,
-  and fine with it being transferred to another maintainer should they become inactive.
+  and fine with it being transferred to another maintainer should they become inactive as documented in the [Governance Charter](./governance.md).
