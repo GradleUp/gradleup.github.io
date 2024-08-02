@@ -38,8 +38,8 @@ jobs:
       - name: Build in the dev container image
         uses: devcontainers/ci@v0.3
         with:
-            imageName: ghcr.io/oleg-nenashev/oleg-nenashev-site-builder
-            cacheFrom: ghcr.io/oleg-nenashev/oleg-nenashev-site-builder
+            imageName: ghcr.io/gradleup/gradleup.github.io-builder
+            cacheFrom: ghcr.io/gradleup/gradleup.github.io-builder
             push: never
             runCmd: |
               mkdocs build
