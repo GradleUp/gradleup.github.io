@@ -53,3 +53,5 @@ jobs:
           enforce_https: false
           tokens: |
             {"https://github.com": "${{ secrets.GITHUB_TOKEN }}"}
+          ignore_url: |
+             https://fonts.gstatic.com
