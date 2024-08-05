@@ -15,6 +15,7 @@ It includes but not limited to plugins, developer tools, integrations, documenta
 The GradleUp organization is a volunteer driven community
 operating in a public interest in a non-profit mode and
 providing no commercial services.
+There is no formal legal entity behind GradleUp.
 As it is written in the Apache License v2:
 
 > Licensor provides the Work (and each Contributor provides its Contributions) on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied, including, without limitation, any warranties or conditions of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A PARTICULAR PURPOSE. You are solely responsible for determining the appropriateness of using or redistributing the Work and assume any risks associated with Your exercise of permissions under this License.
