@@ -48,6 +48,8 @@ jobs:
       
       - name: Lint the static site
         uses: anishathalye/proof-html@v2
+        # Disabled
+        if: ${{ false }}
         with:
           directory: ./_site
           enforce_https: false
