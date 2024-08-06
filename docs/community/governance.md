@@ -36,7 +36,7 @@ The project also includes maintainers and contributors.
 
 * **Contributor** - any individual who participates in the community and 
   adds value to in one form or another,
-  including but not limited to code, documentation ,automation, advocacy or
+  including but not limited to code, documentation, automation, advocacy or
   community support.
 * **Team Member** -
   A GradleUp contributor listed on the [GradleUp Team page](./team.md).

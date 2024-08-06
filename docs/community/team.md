@@ -16,5 +16,5 @@ Learn more in the [Governance Document](./governance.md).
 
 ## Contact the Team
 
-For now, we use DMs on the Kotlin Foundation or the Gradle Community Slack.
+For now, we use DMs on the Kotlinlang Slack, or the Gradle Community Slack.
 Public communication channels are to be established soon.
