@@ -1,7 +1,7 @@
 site_name: GradleUp
 site_description: >-
   GradleUp is an umbrella GitHub organization focusing
-  on simplifying Java and Android development with Gradle.
+  on simplifying Java, Kotlin and Android development with Gradle.
   On our menu: Gradle plugins, developer tools and best practices.
 copyright: >-
   Copyright &copy; 2024 - GradleUp contributors.
@@ -35,6 +35,7 @@ nav:
     - GradleUp Team: docs/community/team.md
     - Hosting New Projects: docs/community/hosting.md
     - Contributing to the Website: ./CONTRIBUTING.md
+    - Governance: docs/community/governance.md
     - Code of Conduct: org/CODE_OF_CONDUCT.md
   - Resources:
     - Community Support: org/SUPPORT.md
