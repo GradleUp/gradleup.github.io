@@ -1,12 +1,14 @@
 name: Continuous Integration
 
 on:
-  # We have deploy there
-  # push:
-  #  branches: [ "main" ]
   pull_request:
     branches: [ "main" ]
   workflow_dispatch:
+    inputs:
+      runLint:
+        description: 'Run the static linter'     
+        required: false
+        default: false
 
 jobs:
   # Build job
@@ -48,8 +50,7 @@ jobs:
       
       - name: Lint the static site
         uses: anishathalye/proof-html@v2
-        # Disabled
-        if: ${{ false }}
+        if: ${{ inputs.runLint }}
         with:
           directory: ./_site
           enforce_https: false
