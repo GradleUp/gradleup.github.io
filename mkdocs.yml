@@ -30,6 +30,8 @@ nav:
       - NMCP (New Maven Central Publishing): nmcp/README.md
       - Shadow: shadow/README.md
     - Hosting New Projects: docs/community/hosting.md
+  - Blog:
+    - blog/index.md
   - Participate:
     - Community Channels: docs/community/participate.md
     - GradleUp Team: docs/community/team.md
@@ -45,10 +47,18 @@ nav:
 plugins:
   - search
   - autorefs
+  - blog
   - macros
   - mkdocs-pdf
   - social
   - same-dir
+  - rss:
+      match_path: blog/posts/.* 
+      date_from_meta:
+        as_creation: date
+      categories:
+        - categories
+        - tags
   - group:
       enabled: !ENV [FULL_BUILD, true]
       plugins:
@@ -171,6 +181,9 @@ extra:
     - icon: fontawesome/brands/github
       link: https://github.com/GradleUp
       name: GitHub
+    - icon: /fontawesome/solid/rss
+      link: feed_rss_created.xml
+      name: RSS
 #  analytics:
 #    provider: google
 #    property: TODO
