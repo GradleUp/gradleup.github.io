@@ -172,7 +172,7 @@ extra:
       link: https://github.com/GradleUp
       name: GitHub
     - icon: fontawesome/brands/slack
-      link: docs/community/participate.md#slack
+      link: https://gradleup.com/docs/community/participate/#slack
       name: Slack
 #  analytics:
 #    provider: google
