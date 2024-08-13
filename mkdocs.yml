@@ -184,6 +184,10 @@ extra:
     - icon: /fontawesome/solid/rss
       link: feed_rss_created.xml
       name: RSS
+    - icon: fontawesome/brands/slack
+      link: docs/community/participate.md#slack
+      name: Slack
+
 #  analytics:
 #    provider: google
 #    property: TODO
