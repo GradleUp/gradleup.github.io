@@ -1,5 +1,7 @@
 # GradleUp Community Channels
 
+[![Slack: GradleUp on the Gradle Community Slack](https://img.shields.io/badge/Slack-%23gradleup-brightgreen?style=flat&logo=slack)](./#slack)
+
 ## GitHub Issues
 
 Each project has GitHub issues.

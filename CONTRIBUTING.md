@@ -1,6 +1,6 @@
 # Contributing to the Site
 
-[![Slack: GradleUp on the Gradle Community Slack](https://img.shields.io/badge/Slack-%23hacktoberfest-brightgreen?style=flat&logo=slack)](./docs/community/participate.md#slack)
+[![Slack: GradleUp on the Gradle Community Slack](https://img.shields.io/badge/Slack-%23gradleup-brightgreen?style=flat&logo=slack)](./docs/community/participate.md#slack)
 
 Any contributions, typo fixes and patches are welcome!
 The content is located inside this repository and in the

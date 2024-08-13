@@ -4,7 +4,7 @@
 
 [![Website](https://img.shields.io/static/v1?label=Website&message=gradleup.com&color=blue)](https://gradleup.com/)
 [![Docs](https://img.shields.io/static/v1?label=Projects&message=10%2b&color=green)](https://gradleup.com/projects/)
-[![Slack: GradleUp on the Gradle Community Slack](https://img.shields.io/badge/Slack-%23hacktoberfest-brightgreen?style=flat&logo=slack)](./docs/community/participate.md#slack)
+[![Slack: GradleUp on the Gradle Community Slack](https://img.shields.io/badge/Slack-%23gradleup-brightgreen?style=flat&logo=slack)](https://gradleup.com/docs/community/participate/#slack)
 [![Participate](https://img.shields.io/static/v1?label=Contributor&message=Guide&color=lightgreen)](https://gradleup.com/docs/community/participate/)
 
 This repository hosts a [GradleUp website](https://gradleup.com/).
