@@ -171,6 +171,9 @@ extra:
     - icon: fontawesome/brands/github
       link: https://github.com/GradleUp
       name: GitHub
+    - icon: fontawesome/brands/slack
+      link: docs/community/participate.md#slack
+      name: Slack
 #  analytics:
 #    provider: google
 #    property: TODO

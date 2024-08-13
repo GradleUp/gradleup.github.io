@@ -55,10 +55,12 @@ The decisions are made by the [GradleUp Team](./team.md) based on consensus and 
 We intend to make decision making fast and light-weight,
 with minimum overhead when a consensus exists.
 
-At the moment the decisions are made in a GradleUp Team private channel.
-Once [public communication channels](./participate.md) are established,
-it is expected that most of the discussions will happen there,
-and all contributors and end users will be able to contribute to the decisions.
+Most of the decisions are discussed and made in
+[public communication channels](./participate.md).
+It is expected that all contributors and end users are able to participate to the decisions.
+Some exceptional decisions,
+for example Code of Conduct discussions,
+may be done in private.
 
 ## Components Governance
 
