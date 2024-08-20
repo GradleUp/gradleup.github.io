@@ -52,13 +52,6 @@ plugins:
       cards_layout_options:
         background_color: "#2A465B"
   - same-dir
-  - rss:
-      match_path: blog/posts/.* 
-      date_from_meta:
-        as_creation: date
-      categories:
-        - categories
-        - tags
   - group:
       enabled: !ENV [FULL_BUILD, true]
       plugins:
