@@ -48,7 +48,9 @@ plugins:
   - autorefs
   - macros
   - mkdocs-pdf
-  - social
+  - social:
+      cards_layout_options:
+        background_color: "#2A465B"
   - same-dir
   - rss:
       match_path: blog/posts/.* 
@@ -167,7 +169,7 @@ theme:
     text: DM Sans
     code: Roboto Mono
   favicon: assets/images/logo-square.png
-  logo: assets/images/logo.png
+  logo: assets/images/logo-dark.png
   icon:
     repo: fontawesome/brands/github
 
@@ -180,7 +182,7 @@ extra:
       link: https://github.com/GradleUp
       name: GitHub
     - icon: fontawesome/brands/slack
-      link: docs/community/participate.md#slack
+      link: https://gradleup.com/docs/community/participate/#slack
       name: Slack
     - icon: /fontawesome/solid/blog
       link: https://blog.gradleup.com
