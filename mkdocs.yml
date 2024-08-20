@@ -30,8 +30,6 @@ nav:
       - NMCP (New Maven Central Publishing): nmcp/README.md
       - Shadow: shadow/README.md
     - Hosting New Projects: docs/community/hosting.md
-  - Blog:
-    - blog/index.md
   - Participate:
     - Community Channels: docs/community/participate.md
     - GradleUp Team: docs/community/team.md
@@ -39,6 +37,7 @@ nav:
     - Contributing to the Website: ./CONTRIBUTING.md
     - Governance: docs/community/governance.md
     - Code of Conduct: org/CODE_OF_CONDUCT.md
+  - Blog: https://blog.gradleup.com/
   - Resources:
     - Community Support: org/SUPPORT.md
     - Security Policy: org/SECURITY.md
@@ -47,7 +46,6 @@ nav:
 plugins:
   - search
   - autorefs
-  - blog
   - macros
   - mkdocs-pdf
   - social
@@ -181,12 +179,15 @@ extra:
     - icon: fontawesome/brands/github
       link: https://github.com/GradleUp
       name: GitHub
-    - icon: /fontawesome/solid/rss
-      link: feed_rss_created.xml
-      name: RSS
     - icon: fontawesome/brands/slack
       link: docs/community/participate.md#slack
       name: Slack
+    - icon: /fontawesome/solid/blog
+      link: https://blog.gradleup.com
+      name: Blog
+    - icon: /fontawesome/solid/rss
+      link: https://blog.gradleup.com/rss.xml
+      name: Blog - RSS
 
 #  analytics:
 #    provider: google
