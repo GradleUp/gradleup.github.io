@@ -55,6 +55,12 @@
 
     .mdx-hero__buttons {
       margin-bottom: 20px;
+
+    }
+
+    .md-button {
+      margin-left: 5px;
+      margin-right: 5px;
     }
 
     .mdx-container {
@@ -67,6 +73,12 @@
 
       div {
         text-align:center;
+      }
+    }
+
+    [data-md-color-scheme="slate"] {
+      .md-button {
+        color: #f8f8f8;
       }
     }
   </style>
@@ -84,6 +96,9 @@
         <div class="mdx-hero__buttons">
           <a href="{{ 'projects/' | url }}" title="Our Projects" class="md-button md-button--primary">
             Our Projects
+          </a>
+          <a href="https://blog.gradleup.com/" target="_blank" title="Blog" class="md-button">
+            Blog
           </a>
           <a href="{{ 'docs/community/participate/' | url }}" title="Participate" class="md-button">
             Contributing

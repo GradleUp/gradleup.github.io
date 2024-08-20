@@ -37,6 +37,7 @@ nav:
     - Contributing to the Website: ./CONTRIBUTING.md
     - Governance: docs/community/governance.md
     - Code of Conduct: org/CODE_OF_CONDUCT.md
+  - Blog: https://blog.gradleup.com/
   - Resources:
     - Community Support: org/SUPPORT.md
     - Security Policy: org/SECURITY.md
@@ -176,6 +177,13 @@ extra:
     - icon: fontawesome/brands/slack
       link: https://gradleup.com/docs/community/participate/#slack
       name: Slack
+    - icon: /fontawesome/solid/blog
+      link: https://blog.gradleup.com
+      name: Blog
+    - icon: /fontawesome/solid/rss
+      link: https://blog.gradleup.com/rss.xml
+      name: Blog - RSS
+
 #  analytics:
 #    provider: google
 #    property: TODO
