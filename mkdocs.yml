@@ -47,7 +47,9 @@ plugins:
   - autorefs
   - macros
   - mkdocs-pdf
-  - social
+  - social:
+      cards_layout_options:
+        background_color: "#2A465B"
   - same-dir
   - group:
       enabled: !ENV [FULL_BUILD, true]
