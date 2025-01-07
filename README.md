@@ -1,7 +1,3 @@
-<p align="center">
-    <img width="512px" src="./assets/images/header-wide.png" alt="WireMock Logo"/>
-</p>
-
 [![Website](https://img.shields.io/static/v1?label=Website&message=gradleup.com&color=blue)](https://gradleup.com/)
 [![Docs](https://img.shields.io/static/v1?label=Projects&message=10%2b&color=green)](https://gradleup.com/projects/)
 [![Slack: GradleUp on the Gradle Community Slack](https://img.shields.io/badge/Slack-%23gradleup-brightgreen?style=flat&logo=slack)](https://gradleup.com/docs/community/participate/#slack)
