@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="241px" height="212px" viewBox="0 0 241 212" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Slice</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <text id="G" font-family="OpenSans-Regular, Open Sans" font-size="142" font-weight="normal" fill="#02303A">
+            <tspan x="8" y="193">G</tspan>
+        </text>
+        <rect id="Rectangle" fill="#6784A0" x="121" y="89" width="106" height="106" rx="11"></rect>
+        <text id="up!" font-family="Nunito-Bold, Nunito" font-size="66" font-weight="bold" fill="#FFFFFF">
+            <tspan x="129.409" y="159">up!</tspan>
+        </text>
+        <text id="This-SVG-requires-Op" font-family="ArialMT, Arial" font-size="14" font-weight="normal" fill="#FFFFFF">
+            <tspan x="8" y="25">This SVG requires Open Sans and </tspan>
+            <tspan x="8" y="41">Nunito fonts</tspan>
+        </text>
+    </g>
+</svg>

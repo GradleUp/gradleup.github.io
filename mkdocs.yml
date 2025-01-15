@@ -161,8 +161,8 @@ theme:
   font:
     text: DM Sans
     code: Roboto Mono
-  favicon: assets/images/logo-square.png
-  logo: assets/images/logo-dark.png
+  favicon: assets/images/logo-square.svg
+  logo: assets/images/logo.svg
   icon:
     repo: fontawesome/brands/github
 
