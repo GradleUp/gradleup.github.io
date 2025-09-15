@@ -1,10 +1,11 @@
 site_name: GradleUp
 site_description: >-
-  GradleUp is an umbrella GitHub organization focusing
+  GradleUp is an independent umbrella GitHub organization focusing
   on simplifying Java, Kotlin and Android development with Gradle.
   On our menu: Gradle plugins, developer tools and best practices.
+  GradleUp is not affiliated with Gradle, Inc. in any way.
 copyright: >-
-  Copyright &copy; 2024 - GradleUp contributors.
+  Copyright &copy; 2025 - GradleUp contributors.
   The content and the license are licensed under CC BY 4.0.
   Gradle and the Gradlephant logo (the "Gradle Marks") are registered trademarks of Gradle, Inc. and/or its subsidiaries.
   This website and its content are not affiliated with, or sponsored by Gradle, Inc. GradleUp is an independent organization and its projects, plugins, and products are not affiliated with or sponsored by Gradle, Inc. in any way.
