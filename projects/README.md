@@ -6,6 +6,8 @@ on the [GitHub organization](https://github.com/GradleUp)
 
 ## Gradle Plugins
 
+- [Tapmoc](../tapmoc/README.md) -
+  Makes it easy to handle your Java & Kotlin compatibility flags
 - [Auto Manifest](../auto-manifest/README.md) -
   Generates `AndroidManifest.xml` in simple libraries so that you don't have to
 - [Gradle static analysis plugin](../static-analysis-plugin/README.md) -
